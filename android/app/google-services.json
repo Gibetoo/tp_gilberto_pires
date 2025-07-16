@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "766027156556",
+    "project_id": "tp-flutter-firebase-75229",
+    "storage_bucket": "tp-flutter-firebase-75229.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766027156556:android:951a6be803a28741b078e9",
+        "android_client_info": {
+          "package_name": "com.example.tp_gilberto_pires"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD51Ei1STVy7eoc-nCVh7PiqbcyAlaTGM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
