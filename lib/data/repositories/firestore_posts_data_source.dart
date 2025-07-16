@@ -13,17 +13,17 @@ class FirestorePostsDataSource implements PostsDataSource {
         await _collection.orderBy('lastUpdatedAt', descending: true).get();
     return snapshot.docs.map((doc) {
       final data = doc.data() as Map<String, dynamic>;
-      return Post.fromMap(doc.id, data);
+      return Post.fromJson(doc.id, data);
     }).toList();
   }
 
   @override
   Future<void> createPost(Post post) async {
-    await _collection.add(post.toMap());
+    await _collection.add(post.toJson());
   }
 
   @override
   Future<void> updatePost(Post post) async {
-    await _collection.doc(post.id).update(post.toMap());
+    await _collection.doc(post.id).update(post.toJson());
   }
 }

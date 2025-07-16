@@ -11,16 +11,16 @@ class Post {
     this.lastUpdatedAt,
   });
 
-  factory Post.fromMap(String id, Map<String, dynamic> data) {
+  factory Post.fromJson(String id, Map<String, dynamic> json) {
     return Post(
       id: id,
-      title: data['title'] ?? '',
-      description: data['description'] ?? '',
-      lastUpdatedAt: data['lastUpdatedAt']?.toDate(),
+      title: json['title'] as String? ?? '',
+      description: json['description'] as String? ?? '',
+      lastUpdatedAt: json['lastUpdatedAt']?.toDate(),
     );
   }
 
-  Map<String, dynamic> toMap() {
+  Map<String, dynamic> toJson() {
     return {
       'title': title,
       'description': description,

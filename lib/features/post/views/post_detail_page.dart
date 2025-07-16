@@ -39,7 +39,7 @@ class _PostDetailPageState extends State<PostDetailPage> {
 
     final data = doc.data();
     if (data != null) {
-      _post = Post.fromMap(doc.id, data);
+      _post = Post.fromJson(doc.id, data);
       _titleController = TextEditingController(text: _post!.title);
       _descriptionController = TextEditingController(text: _post!.description);
       setState(() => _loading = false);
