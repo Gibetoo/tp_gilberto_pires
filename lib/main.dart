@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:tp_gilberto_pires/data/repositories/firestore_posts_data_source.dart';
-import 'package:tp_gilberto_pires/data/repositories/post_repository.dart';
-import 'package:tp_gilberto_pires/features/post/blocs/post_bloc.dart';
-import 'package:tp_gilberto_pires/features/post/blocs/post_event.dart';
+import 'package:tp_gilberto_pires/core/repositories/firestore_posts_data_source.dart';
+import 'package:tp_gilberto_pires/core/repositories/post_repository.dart';
+import 'package:tp_gilberto_pires/core/blocs/post_bloc.dart';
+import 'package:tp_gilberto_pires/core/blocs/post_event.dart';
 import 'package:tp_gilberto_pires/router/app_router.dart';
 import 'firebase_options.dart';
 

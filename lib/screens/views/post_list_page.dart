@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:tp_gilberto_pires/features/post/blocs/post_bloc.dart';
-import 'package:tp_gilberto_pires/features/post/blocs/post_state.dart';
+import 'package:tp_gilberto_pires/core/blocs/post_bloc.dart';
+import 'package:tp_gilberto_pires/core/blocs/post_state.dart';
 
 class PostListPage extends StatelessWidget {
   const PostListPage({super.key});

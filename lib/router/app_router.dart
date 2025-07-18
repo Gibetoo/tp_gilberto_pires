@@ -1,8 +1,8 @@
 import 'package:go_router/go_router.dart';
-import 'package:tp_gilberto_pires/features/post/views/post_detail_page.dart';
-import 'package:tp_gilberto_pires/features/post/views/post_form_page.dart';
-import 'package:tp_gilberto_pires/features/post/views/post_list_page.dart';
-import 'package:tp_gilberto_pires/page_not_found/page_not_found.dart';
+import 'package:tp_gilberto_pires/screens/views/post_detail_page.dart';
+import 'package:tp_gilberto_pires/screens/views/post_form_page.dart';
+import 'package:tp_gilberto_pires/screens/views/post_list_page.dart';
+import 'package:tp_gilberto_pires/screens/page_not_found/page_not_found.dart';
 
 final GoRouter appRouter = GoRouter(
   initialLocation: '/',

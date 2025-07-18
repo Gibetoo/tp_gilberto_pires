@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tp_gilberto_pires/data/repositories/post_repository.dart';
+import 'package:tp_gilberto_pires/core/repositories/post_repository.dart';
 import 'post_event.dart';
 import 'post_state.dart';
 
